@@ -10,6 +10,7 @@
   background-size: cover;
   aspect-ratio: 1920 / 1000;
   padding-top: 20px;
+  animation: bg-сhange 20s infinite;
 }
 
 .container {
@@ -46,3 +47,33 @@
 .nav-list__item {
   margin-left: 40px;
 }
+
+@keyframes bg-сhange {
+      from {
+        background-image: url('img/main_pic_bg.svg');
+      }
+
+      15% {
+        background-image: url('img/main_pic_bg.svg');
+      }
+
+      30% {
+        background-image: url('img/second_bg.svg');
+      }
+
+      50% {
+        background-image: url('img/second_bg.svg');
+      }
+
+      70% {
+        background-image: url('img/third_bg.svg');
+      }
+
+      97% {
+        background-image: url('img/third_bg.svg');
+      }
+
+      to {
+        background-image: url('img/main_pic_bg.svg');
+      }
+    }
